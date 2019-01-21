@@ -23,9 +23,9 @@ class String
 
   end
 
-#
-#
-#
+#returns the number of sentences in a string
+#returns zero if there are no sentences in a string
+#returns the number of sentences in a complex string
 
   def count_sentences
 
