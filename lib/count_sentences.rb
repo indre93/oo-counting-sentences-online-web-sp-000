@@ -28,6 +28,6 @@ class String
 #returns the number of sentences in a complex string
 
   def count_sentences
-    self.split(/\w+[\.|\!\?]/).delete(1)
+    self.split(/\w+[\.|\!\?]/).size
   end
 end
