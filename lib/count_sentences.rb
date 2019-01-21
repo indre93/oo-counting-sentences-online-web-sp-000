@@ -28,7 +28,7 @@ class String
 #returns the number of sentences in a complex string
 
   def count_sentences
-    split(self)
+    self.split
     count(self)
   end
 end
