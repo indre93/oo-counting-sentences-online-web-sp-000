@@ -20,7 +20,7 @@ class String
 #returns false if the string that you are calling this method on does NOT end in a exclamation mark.
 
   def exclamation?
-
+    self.end_with("!")
   end
 
 #returns the number of sentences in a string
