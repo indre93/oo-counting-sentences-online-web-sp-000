@@ -13,7 +13,7 @@ class String
 #returns false if the string that you are calling this method on does NOT end in question mark.
 
   def question?
-
+    self.end_with("?")
   end
 
 #returns true if the string that you are calling this method on ends in an exclamation mark
