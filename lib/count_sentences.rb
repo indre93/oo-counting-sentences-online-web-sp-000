@@ -25,6 +25,7 @@ class String
 
 #
 #
+#
 
   def count_sentences
 
